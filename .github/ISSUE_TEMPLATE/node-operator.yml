@@ -1,0 +1,58 @@
+name: Node operator interest
+description: Register your interest in running a Flashnet node.
+title: "Node operator: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in running a Flashnet node.
+
+        **This issue is public.** Everything you write here can be read by anyone and stays in the history of the repository. Use a pseudonym if you prefer, and only share details that you are comfortable making public.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Your name, or how you would like to be called for this operation.
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Geographic location
+      description: Where you would run the node. A country or region is enough.
+    validations:
+      required: true
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: Experience running sovereign infrastructure
+      description: Tell us about the infrastructure you have run or run now, for example your own hardware, nodes, relays or other self-hosted services.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why do you want to work on anonymity and privacy?
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links to your work
+      description: Links that show your work, for example repositories, articles, talks or services that you operate. Put each link on its own line.
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: How we can contact you, for example an email address, a Signal username or a Matrix ID.
+    validations:
+      required: true
